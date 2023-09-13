@@ -19,7 +19,7 @@ The objective of creating the dashboard is to compare multiple variables availab
 * **Country**: Country of origin, such as Canada, United States, etc.
 * **Income**: Divided by under or equal to 50K or over 50K.
 
-### Conclusion
+### Insights
 After analyzing the data using various charts and DAX measures, we can conclude that:
 * The majority of the population, both men and women, earns less than 50k per year.
 * Around 75% of those who earn 50k and above are ‘Husbands’.
