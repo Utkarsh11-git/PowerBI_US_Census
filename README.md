@@ -18,6 +18,13 @@ The objective of creating the dashboard is to compare multiple variables availab
 * **Hours-per-week**: Average no of hours of work per week.
 * **Country**: Country of origin, such as Canada, United States, etc.
 * **Income**: Divided by under or equal to 50K or over 50K.
+  
+### DAX Formulas Used in Measures
+**1. Percentage of Male/Female Population**
+* `DIVIDE(CALCULATE(COUNTROWS(adult),adult[gender]="Male"),COUNTROWS(adult))`
+
+**2. Number of people with income over 50K**
+* `CALCULATE(COUNTA(adult[income]),adult[income]=">50K")`
 
 ### Insights
 After analyzing the data using various charts and DAX measures, we can conclude that:
